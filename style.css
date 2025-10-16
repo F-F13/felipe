@@ -1,0 +1,284 @@
+.navbar-custom {
+  background-color: teal;
+  color: white;
+  /* verde escuro */
+}
+
+.navbar-custom .nav-link,
+.navbar-custom .navbar-brand {
+  color: white;
+  /* deixa os links brancos */
+}
+
+.navbar-custom .nav-link:hover {
+  color: white;
+  /* tom mais claro ao passar o mouse */
+}
+
+.navbar-custom .nav-link {
+  color: #ffffff !important;
+}
+
+/* Links quando passar o mouse */
+.navbar-custom .nav-link:hover {
+  color: #f5d020 !important;
+  /* ou outra cor de destaque */
+}
+
+.navbar-custom img {
+  width: 70px;
+  height: 50px;
+}
+
+.hero-content {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  /* alinha verticalmente */
+  justify-content: center;
+  /* centraliza horizontalmente */
+  padding: 40px;
+  gap: 10px;
+  /* mantém texto e imagem próximos */
+}
+
+.hero-content {
+  max-width: 55%;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  text-align: center;
+  /* centraliza o texto */
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  color: #555;
+  text-align: center;
+  /* centraliza o parágrafo */
+}
+
+.hero-image img {
+  max-width: 250px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: solid black 5px;
+  border-color: teal;
+}
+
+.hero-buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+  /* espaço entre os botões */
+  justify-content: center;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: white;
+  font-size: 24px;
+  transition: 0.3s;
+}
+
+/* WhatsApp */
+.btn.whatsapp {
+  background-color: #25D366;
+}
+
+.btn.whatsapp:hover {
+  background-color: #1EBE5B;
+}
+
+/* Instagram */
+.btn.instagram {
+  background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+}
+
+.btn.instagram:hover {
+  opacity: 0.8;
+}
+
+#section-projetos img {
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-left: 142px;
+  margin-top: 20px;
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5));
+}
+
+#section-projetos {
+  text-align: center;
+}
+
+#section-projetos h2 {
+  font-weight: bold;
+  padding: 20px;
+}
+
+#section-projetos .card {
+  border: 1px solid #ccc;
+
+}
+
+#section-projetos .preco {
+  color: #f5d020;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#static-skills {
+  padding: 60px 0;
+  text-align: center;
+  background-color: #f4f4f9;
+}
+
+#static-skills h2 {
+  margin-bottom: 30px;
+  font-size: 2em;
+  color: #333;
+}
+
+
+.skills-container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 15px;
+
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+
+.skills-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  white-space: nowrap;
+}
+
+.skill-tag {
+  display: flex;
+  align-items: center;
+  padding: 8px 20px;
+  font-size: 1.3em;
+  font-weight: 600;
+  color: #4a4a4a;
+  background: #e9e9e9;
+  border-radius: 8px;
+  flex-shrink: 0;
+  cursor: default;
+  transition: background 0.3s;
+}
+
+.skill-tag:hover {
+  background: #dcdcdc;
+}
+
+.skill-tag i {
+  font-size: 1.6em;
+  margin-right: 12px;
+}
+
+/* Cores dos Ícones */
+.html-color {
+  color: #E44D26;
+}
+
+.css-color {
+  color: #264DE4;
+}
+
+.js-color {
+  color: #F7DF1E;
+}
+
+.python-color {
+  color: #306998;
+}
+
+#contato {
+  padding: 80px 20px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+#contato h2 {
+  margin-bottom: 40px;
+  font-size: 2.5em;
+  color: #333;
+}
+
+.contato-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  background-color: #f9f9f9;
+  text-align: left;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #555;
+}
+
+.form-group input[type="email"],
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 1em;
+  transition: border-color 0.3s;
+  resize: vertical;
+}
+
+.form-group input[type="email"]:focus,
+.form-group textarea:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+.submit-btn {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background-color: #007bff;
+  color: white;
+  font-size: 1.1em;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
